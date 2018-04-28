@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+           <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scaleable=no">
+           <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Typescritp Hello World</title>
+    </head>
+    <body>
+        <!-- Button trigger modal -->
+    <div >
+            <h3>Please click here to see the details</h3>
+            <button type="button" class="btn btn-primary step" data-toggle="modal" data-target="#exampleModal">
+                    Video 1
+                </button>
+    </div>
+        
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                            Name :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="userName">
+                        </div>
+                        
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                            Comments :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="comments">
+                        </div>
+    
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            Next Video :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-9 col-lg-9 col-xl-9" id="nxtvideo">
+                        </div>
+        
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                Playtime:
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="playTime">
+                        </div>
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                Likes :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="like">
+                        </div>
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                Dis-likes :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="disLike">
+                        </div>
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                Total-Views :
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="totalView">
+                        </div>
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                PublishedOn:
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="pubOn">
+                        </div>
+
+                    </div>
+                    <hr>
+                <div class="row rowStyle">
+
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-3">
+                                PublishedBy:
+                        </div>
+                        <div class="col-8 col-sm-9 col-md-10 col-lg-10 col-xl-9" id="pubBy">
+                        </div>
+
+                    </div>
+    
+    
+                            
+                        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</html>
